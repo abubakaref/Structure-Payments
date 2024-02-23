@@ -1,0 +1,591 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.header-section {
+  background-color: rgba(14, 39, 86, 1);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+
+  .logo {
+    margin: 20px 10px 20px 25px;
+  }
+
+  .contact-btn {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.2vw;
+    width: 172px;
+    height: 47px;
+    top: 39px;
+    left: 1117px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px 70px 20px 10px;
+    background-color: white;
+    color: rgba(14, 39, 86, 1);
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 450;
+    color: white;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+/* ***************** Banner Section start ************ */
+.banner-img {
+  background: linear-gradient(180deg, #2e4ab8 0%, rgba(46, 74, 184, 0) 100%),
+    url("../assets/banner.jpg");
+
+  background-size: 100%;
+  height: 700px;
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+    margin: 0px 50px 0px 40px;
+    .banner-text {
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .banner-tag {
+        color: rgba(193, 216, 133, 1);
+        font-family: Montserrat;
+        font-size: 1.3vw;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-align: left;
+      }
+      .banner-title {
+        color: rgba(242, 242, 242, 1);
+        font-family: Montserrat;
+        font-size: 4.5vw;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p {
+        color: rgba(242, 242, 242, 1);
+        font-family: Montserrat;
+        font-size: 1.2vw;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 23%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 8px;
+    .form-title {
+      text-align: center;
+      color: rgba(46, 74, 184, 1);
+      font-family: Montserrat;
+      font-size: 2vw;
+      font-weight: 700;
+    }
+    .label-form {
+      color: #2e4ab8;
+      margin-bottom: 20px;
+    }
+    .input-F-L {
+      gap: 10px;
+      display: flex;
+      padding: 15px;
+    }
+    .input {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: none;
+    }
+    .submit-button {
+      margin-left: 30px;
+      border-radius: 8px;
+      padding: 12px;
+      width: 80%;
+      background-color: rgba(46, 74, 184, 1);
+      color: rgba(242, 242, 242, 1);
+      font-family: Montserrat;
+      font-size: 1vw;
+      font-weight: 600;
+      border: none;
+    }
+  }
+}
+/* ***************** Banner Section end ************ */
+
+/* **********Card Processing Section start**************** */
+.card-processing-section {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 50px;
+  .card-processing-header-text {
+    .title {
+      font-family: Montserrat;
+      font-size: 2vw;
+      font-weight: 700;
+      color: rgba(46, 74, 184, 1);
+      text-align: center;
+    }
+    p {
+      font-family: Montserrat;
+      font-size: 1vw;
+      font-weight: 500;
+      text-align: center;
+      color: rgba(117, 124, 139, 1);
+    }
+  }
+  .card-processing-section-content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    .point-section {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+    .picture-section {
+      display: flex;
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.point-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .point-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    color: #2e4ab8;
+    .title {
+      font-weight: 700;
+      font-family: Montserrat;
+      font-size: 1.3vw;
+      text-align: left;
+    }
+    p {
+      color: rgba(117, 124, 139, 1);
+      font-family: Montserrat;
+      font-size: 1vw;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+}
+.numdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(46, 74, 184, 1);
+  width: 50px;
+  height: 50px;
+  border-radius: 150px;
+}
+/************Card Processing Section End*****************/
+/***************Why Section start************************/
+.why-section {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #0e2756 54.69%, #2e4ab8 100%);
+  .why-section-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 60px;
+    .why-section-header-text {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      margin-left: 20px;
+      .title {
+        font-family: Montserrat;
+        font-size: 3.1vw;
+        font-weight: 700;
+        text-align: left;
+      }
+      .Divider {
+        border: 2px solid rgba(193, 216, 133, 1);
+        width: 20%;
+        margin-top: 10px;
+      }
+      p {
+        margin-top: 40px;
+        font-family: Montserrat;
+        font-size: 1.3vw;
+        font-weight: 400;
+        text-align: left;
+      }
+    }
+    .img-background {
+      height: 500px;
+      z-index: 0;
+      top: 0;
+    }
+  }
+  .card-section {
+    margin-left: 40px;
+    margin-right: 40px;
+    .card-row {
+      padding: 25px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      .card {
+        padding-top: 13px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 339px;
+        height: 240px;
+        border-radius: 10px;
+        background-color: white;
+        img {
+          width: 51px;
+        }
+        span {
+          font-family: Montserrat;
+          font-size: 1.5vw;
+          font-weight: 900;
+          line-height: 26px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(46, 74, 184, 1);
+        }
+        p {
+          font-family: Montserrat;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: rgba(117, 124, 139, 1);
+        }
+      }
+    }
+  }
+  p {
+    color: rgba(242, 242, 242, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .review-section {
+    .review-section-header-text {
+      p {
+        padding: 50px 0px 10px 0px;
+        font-family: Montserrat;
+        font-size: 1.5vw;
+        font-weight: 600;
+        text-align: center;
+        color: rgba(193, 216, 133, 1);
+      }
+      .title {
+        padding-bottom: 60px;
+        color: rgba(242, 242, 242, 1);
+        font-family: Montserrat;
+        font-size: 2.8vw;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+    .review-section-cards {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0px 150px 10px 150px;
+      .cards {
+        padding: 20px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 375px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 1);
+        p {
+          color: rgba(13, 13, 13, 1);
+          font-family: Montserrat;
+          font-size: 1.2vw;
+          font-weight: 400;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+/***************Why Section End**************************/
+/* **************Contact Us Form Section start ***********/
+.contactus-form-section {
+  padding: 100px;
+  .contactus-form-section-content {
+    display: flex;
+    justify-content: space-evenly;
+    .contactus-form {
+      border-radius: 10px;
+      width: 40%;
+      height: 450px;
+      background: linear-gradient(
+          180deg,
+          rgba(46, 74, 184, 0.9) 0%,
+          rgba(14, 39, 86, 0.9) 100%
+        ),
+        url("../assets/formpic.png");
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        border-radius: 8px;
+        .form-title {
+          text-align: center;
+          color: white;
+          font-family: Montserrat;
+          font-size: 2vw;
+          font-weight: 700;
+        }
+        .label-form {
+          color: white;
+          margin-bottom: 20px;
+        }
+        .input-F-L {
+          gap: 10px;
+          display: flex;
+          padding: 15px;
+        }
+        .input {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          border: none;
+        }
+        .submit-button {
+          margin-left: 30px;
+          border-radius: 8px;
+          padding: 12px;
+          width: 80%;
+          background-color: rgba(46, 74, 184, 1);
+          color: rgba(242, 242, 242, 1);
+          font-family: Montserrat;
+          font-size: 1vw;
+          font-weight: 600;
+          border: none;
+        }
+      }
+    }
+    .addresses {
+      padding-top: 10px;
+      .addresses-content {
+        .header-text {
+          .addresses-tag {
+            padding: 6px 6px 6px 0px;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            letter-spacing: 0.1em;
+            text-align: left;
+            color: rgba(193, 216, 133, 1);
+          }
+          .title {
+            padding: 10px 10px 10px 0px;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(46, 74, 184, 1);
+          }
+          p {
+            font-family: Montserrat;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(13, 13, 13, 1);
+          }
+        }
+        .addresses-points {
+          padding: 15px 15px 15px 0px;
+          .heading {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(46, 74, 184, 1);
+          }
+          p {
+            color: rgba(73, 73, 73, 1);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+/* **************Contact Us Form Section End ***********/
+/* **************Footer start ***********/
+footer {
+  .footer-content {
+    background-color: rgba(14, 39, 86, 1);
+    padding: 60px;
+
+    .footer-header-text {
+      display: flex;
+      justify-content: space-evenly;
+      .title {
+        color: white;
+        font-family: Montserrat;
+        font-size: 2vw;
+        font-weight: 700;
+        text-align: left;
+      }
+      p {
+        color: white;
+        font-family: Montserrat;
+        font-size: 1.2vw;
+        font-weight: 400;
+        text-align: left;
+      }
+      .input {
+        font-size: 1.2vw;
+        width: 400px;
+        padding: 15px;
+        border: none;
+      }
+      .news-letter {
+        width: 350px;
+        display: flex;
+        button {
+          padding: 10px;
+          font-size: 1.4vw;
+          background-color: rgba(46, 74, 184, 1);
+          color: white;
+          border: none;
+          font-family: Montserrat;
+          font-weight: 500;
+          text-align: left;
+        }
+      }
+    }
+
+    /******Grid system******/
+    .col-1 {
+      width: 8.33%;
+    }
+    .col-2 {
+      width: 16.66%;
+    }
+    .col-3 {
+      width: 25%;
+    }
+    .col-4 {
+      width: 33.33%;
+    }
+    .col-5 {
+      width: 41.66%;
+    }
+    .col-6 {
+      width: 50%;
+    }
+    .col-7 {
+      width: 58.33%;
+    }
+    .col-8 {
+      width: 66.66%;
+    }
+    .col-9 {
+      width: 75%;
+    }
+    .col10 {
+      width: 83.33%;
+    }
+    .col-11 {
+      width: 91.66%;
+    }
+    .col-12 {
+      width: 100%;
+    }
+    /* End */
+    .footer-menu-section {
+      display: flex;
+      justify-content: space-around;
+      .footer-logo {
+        padding: 10px;
+        p {
+          color: white;
+          padding: 20px 0px 20px 0px;
+        }
+      }
+      .row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 70px;
+        color: white;
+        ul li {
+          padding: 10px;
+          list-style: none;
+          font-size: 1.1vw;
+        }
+        .head {
+          font-size: 1.6vw;
+          font-weight: 400;
+          line-height: 50px;
+        }
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+      }
+    }
+  }
+  .copyrights {
+    background: rgba(46, 74, 184, 1);
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1vw;
+    border-bottom: 25px solid rgba(14, 39, 86, 1);
+  }
+}
+
+/* **************Footer end********************/
